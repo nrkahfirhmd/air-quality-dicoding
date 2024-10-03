@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import datetime
 
-names = ['Aotizhongxin', 'Changping', 'Changping', 'Dingling', 'Dongsi', 'Guanyuan', 'Gucheng', 'Huairou', 'Nongzhanguan', 'Shunyi', 'Tiantan', 'Wanliu', 'Wanshouxigong']
+names = ['Aotizhongxin', 'Changping', 'Dingling', 'Dongsi', 'Guanyuan', 'Gucheng', 'Huairou', 'Nongzhanguan', 'Shunyi', 'Tiantan', 'Wanliu', 'Wanshouxigong']
 
 raw_df = pd.read_csv('main_data.csv')
 
