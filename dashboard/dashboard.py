@@ -7,7 +7,7 @@ import datetime
 
 names = ['Aotizhongxin', 'Changping', 'Dingling', 'Dongsi', 'Guanyuan', 'Gucheng', 'Huairou', 'Nongzhanguan', 'Shunyi', 'Tiantan', 'Wanliu', 'Wanshouxigong']
 
-raw_df = pd.read_csv('/dashboard/main_data.csv')
+raw_df = pd.read_csv('./main_data.csv')
 
 def get_df(city):
     df = raw_df[raw_df['station'] == city]
